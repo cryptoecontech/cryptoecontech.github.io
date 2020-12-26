@@ -21,7 +21,7 @@ plugins:
   - github-pages # Ensures same env as github pages.
   - jekyll-remote-theme
 
-remote_theme: fongandrew/hydeout
+remote_theme: cryptoecontech/hydeout
 
 # Build settings
 markdown: kramdown
