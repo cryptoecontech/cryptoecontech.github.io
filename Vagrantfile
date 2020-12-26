@@ -102,8 +102,8 @@ Vagrant.configure("2") do |config|
 
   ############################################################
   # Jekyll
-  config.vm.provision :shell, inline: "apt-get -y install ruby-dev"
-  config.vm.provision :shell, inline: "apt-get -y install bundler jekyll"
+  config.vm.provision :shell, inline: "apt-get -y install ruby ruby-dev build-essential"
+  config.vm.provision :shell, inline: "gem install bundler jekyll"
   ############################################################
 
 end
